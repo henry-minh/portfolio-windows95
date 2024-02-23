@@ -1,0 +1,95 @@
+
+#draggable-content {
+    padding: 2px;
+    position: absolute;
+    z-index: 9;
+    background-color: #c3c3c3;
+    border: 1.5px solid #ecebeb;
+    text-align: center;
+    padding-bottom: 0;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    
+}
+
+
+
+
+
+
+#desktop-shortcut-container-outer{
+    width: 80px;
+    height: 80px;
+}
+#desktop-shortcut-container{
+    width: 120px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#desktop-shortcut-button{
+    background-color: transparent;
+    width: 80px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    
+}
+#desktop-button-image{
+    width: 36px;
+    height: 36px;
+}
+#desktop-shortcut-text{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    height: 44px;
+    width: 100%;
+    background-color: #c3c3c3;
+    display: flex;
+    z-index: 10000;
+}
+#footer-start-button {
+    height: 44px;
+    width: 100px;
+    margin-right: 6px;
+    cursor: not-allowed;
+}
+
+#taskbar-time-containter {
+    
+    height: 44px;
+    width: 150px;
+    
+    display: flex;
+    height: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.384);
+    border-left: 1px solid rgba(0, 0, 0, 0.384);
+    border-right: 2px solid #fcfbfb;
+    border-bottom: 2px solid #fcfbfb;
+    background-color: #7474741e;
+  
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+#taskbar-time-containter p {
+    font-family: "w95font";
+    margin: auto;
+    display: block;
+    font-size: 24px;
+    
+    
+}
