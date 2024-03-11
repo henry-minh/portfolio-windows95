@@ -7,33 +7,30 @@ function Portfolio() {
       <div id="content-text">
         <h4>Snapcaster.ca</h4>
         <p>
-          Magic the Gathering (MTG) is the largest collectable trading card game with roughly 40 million players worldwide. There are over 25,000 unique printed cards in MTG but no website that aggregates the best prices for unpacked single
+          Magic the Gathering (MTG) is the largest collectable trading card game with roughly 40 million players worldwide. There are over 27,000 unique printed cards in MTG but no website that aggregates the best prices for unpacked single
           cards among local card shops in Canada. With individual card prices ranging from 1¢ up to 2 million dollars, creating a deck can get very expensive.
         </p>
         <p>
-          <a href="https://www.snapcaster.ca/" target="_blank" rel="noreferrer">
-            Snapcaster
-          </a>{" "}
-          is an online website I helped{" "}
+          Snapcaster is an online website I helped{" "}
           <a href="https://www.bryceeppler.com/" target="_blank" rel="noreferrer">
             Bryce Eppler
           </a>{" "}
-          develop where players can query for the cheapest cards sold from over 45 Canadain local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as possible.
+          develop where players can query for the cheapest cards sold from over 60 Canadain local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as possible.
         </p>
-        <p>Features include: single search, multi search, sealed search, custom price drop alerts (coming soon).</p>
-
+        <p>Snapcaster Generates roughly 40,000 page visits a month and an average of 2000 unique monthly visitors including free and paid subscribers.</p>
+        <p>In March 2024 we launched our paid subscription service model which includes a premium advanced search tool and a price alert wish list tool alongside our free single/multi search tools.</p>
         <div id="content-skills">
           <p style={{ background: "#EC2049" }}>Python</p>
           <p style={{ background: "#2F9599" }}>TypeScript</p>
           <p style={{ background: "#A7226E" }}>NextJS</p>
           <p style={{ background: "#336B87" }}>Git</p>
+          <p style={{ background: "#FF4E50" }}>AWS</p>
+          <p style={{ background: "#E8175D" }}>Railway</p>
+          <p style={{ background: "#F34A4A" }}>FastAPI</p>
           <p style={{ background: "#F9D423" }}>MongoDB</p>
           <p style={{ background: "#FC913A" }}>PostgreSQL</p>
-          <p style={{ background: "#FF4E50" }}>Redis</p>
-          <p style={{ background: "#99B898", width: "17%" }}>BeautifulSoup</p>
-          <p style={{ background: "#F34A4A" }}>FastAPI</p>
-          <p style={{ background: "#F26B38" }}>Vercel</p>
-          <p style={{ background: "#E8175D" }}>Railway</p>
+          <p style={{ background: "#99B898" }}>Docker</p>
+          <p style={{ background: "#F26B38" }}>Postman</p>
         </div>
       </div>
 
@@ -44,7 +41,7 @@ function Portfolio() {
           <a href="https://carleton.ca/scs/people/jean-pierre-corriveau/" target="_blank" rel="noreferrer">
             Professor Jean-Pierre Corriveau
           </a>{" "}
-          (Carleton University) for my fourth year Honors project.
+          (Carleton University) for my fourth year Honours project.
         </p>
         <p>
           The goal is to showcase how denial of inventory attacks (Scalping attacks) negatively impact online businesses by developing a tool that can simulate mass users attempting to purchase products online. The inability to distribute

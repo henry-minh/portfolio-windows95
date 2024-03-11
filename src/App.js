@@ -1,5 +1,5 @@
-import "./App.css";
-import Desktop from "./components/os/desktop.js";
+import "./styles/App.css";
+import Desktop from "./components/os/Desktop";
 // import { useState } from "react";
 function App() {
   return (

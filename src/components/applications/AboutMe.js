@@ -9,20 +9,15 @@ function AboutMe() {
 
       <div id="content-text">
         <h4>About Me</h4>
-        <p>
-          Welcome to my portfolio website! I'm a full-stack software developer with a passion for creating unique web experiences. I have experience developing with cloud services, a variety of back-end and front-end frameworks, and
-          developing SaaS for thousands of users.
-        </p>
+        <p>I'm a full-stack software developer with a passion for creating unique web experiences. I have experience developing with cloud services, a variety of back-end and front-end frameworks.</p>
 
         <p>
           From an early age, I always had a deep fascination for technology and how things worked. This curiosity evolved into a genuine passion after I learned Java in my high school programming class which guided my journey as a software
           developer.
         </p>
 
-        <p>
-          I graduated in the Computer Science Honours program at Carleton University in 2023. Here I learned about system security, cryptography, and software quality assurance. Despite attending school during a pandemic, I've become good
-          friends with many of my peers, some of which I still collaborate with on projects to this day.
-        </p>
+        <p>I graduated in the Computer Science Honours program at Carleton University in 2023. Here I learned how to work in Agile enviornments thourgh SCRUM, software quality assurance, and systems security.</p>
+        {/*
         <div id="content-skills">
           <p style={{ background: "#A7226E" }}>ReactJS</p>
           <p style={{ background: "#EC2049" }}>Python</p>
@@ -34,27 +29,33 @@ function AboutMe() {
           <p style={{ background: "#FC913A" }}>PostgreSQL</p>
           <p style={{ background: "#336B87" }}>Redis</p>
           <p style={{ background: "#99B898" }}>Spring Boot</p>
-          <p style={{ background: "#763626" }}>Django</p>
+          <p style={{ background: "#763626" }}>NextJS</p>
           <p style={{ background: "#F34A4A" }}>FastAPI</p>
           <p style={{ background: "#FF4E50" }}>AWS</p>
         </div>
+        
 
         <img src="./henry.png" id="content-photo" alt="Henry"></img>
+        */}
+        <img src="./henry2.png" id="content-photo" alt="Henry"></img>
       </div>
 
       <div id="content-text">
         <h4>Hobbies</h4>
         <h5>Music</h5>
         <p>
-          I've been playing guitar since the start of high school. I enjoy playing music in the punk rock and metal genre including songs From Rise Against, Iron Maiden, and Mastodon. Recently I've been fascinated with Tim Henson and Scott
-          LePage from the band Polyphia for their unique use of hybrid picking.
+          Recently I've been recording guitar covers with an audio interface and FL Studio. Music that I grew up listening to include bands such as Rise Against, Iron Maiden, and Mastodon. My current reccomendation that I've been enjoying
+          is an instrumental band that goes by Polyphia.
         </p>
 
-        <h5>Golf</h5>
-        <p>During the summer months you can find me at the driving range and the golf course with friends and family. I really enjoy being outside and the casual nature when you're out with friends with a couple of drinks.</p>
+        <h5>Sports</h5>
+        <p>I like to stay active by taking part in recreational sports leagues. In the summer months I primarily play soccer in an open league or golf with my friends.</p>
 
-        <h5>Building Gundam Figures</h5>
-        <p>As a fan of the franchise, I've been getting into building Gundam mech figurines. My current project I'm working on is the "Gundam x Nike SB Unicorn 02 Banshee".</p>
+        <h5>Gundam</h5>
+        <p>
+          Gundam is a long running science fiction franchise that revolves around military mech suits. In the past few months I started getting into building Gundam mech models. My current project I'm working on is the "Unicorn 02 Banshee",
+          a collaboration with the appareal brand Nike.
+        </p>
         <img src="./gundam.jpg" id="content-photo" alt="nike sb gundam"></img>
       </div>
       <div id="content-text">
@@ -68,8 +69,8 @@ function AboutMe() {
         </p>
         <p>I drive foster dogs to their vet appointments and deliver donated supplies to foster families across the city. I also help as a dog handler at local fundrasing events.</p>
         <p>
-          I was inspired after my older sibling reached out to me last year to help temporarily house a rescue dog named Teddy for Paws Across the Water. The biggest takeaway I took was how important it is to promote responsible pet
-          ownership. I want to take this unique opportunity to promote a more positive and compassionate community for dogs and pet owners!
+          I was inspired after my sibling reached out to me in 2022 to help temporarily house a rescue dog named Teddy for Paws Across the Water. The biggest takeaway I took was how important it is to promote responsible pet ownership. I
+          want to take this unique opportunity to promote a more positive and compassionate community for dogs and pet owners!
         </p>
         <img src="./dog.jpg" id="content-photo" alt="Tikanaa Meet and Greet"></img>
       </div>

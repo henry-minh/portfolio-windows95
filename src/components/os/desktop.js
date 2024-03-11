@@ -13,7 +13,7 @@ import pictureIcon from "../../browserIcons/PictureIcon.ico";
 import AboutMe from "../applications/AboutMe.js";
 import Portfolio from "../applications/Portfolio.js";
 import Resume from "../applications/Resume.js";
-import OpenSource from "../applications/OpenSource.js";
+import Snapcaster from "../applications/Snapcaster.js";
 import Photos from "../applications/Photos.js";
 import TaskBarButtons from "./TaskBarButtons";
 import Login from "./Login";
@@ -66,7 +66,7 @@ function Desktop() {
     },
     {
       key: 3,
-      browserName: "Open Source",
+      browserName: "Snapcaster",
       taskBarClassName: "taskbar-unselected",
       state: false,
       zPosition: 1,
@@ -75,7 +75,7 @@ function Desktop() {
       maximized: false,
       hidden: false,
       icon: folderIcon,
-      browserContent: <OpenSource />,
+      browserContent: <Snapcaster />,
     },
     {
       key: 4,
@@ -182,10 +182,10 @@ function Desktop() {
           <p id="desktop-shortcut-text">Resume</p>
         </button>
       </div>
-      <div id="desktop-shortcut-container" onClick={addBrowser("Open Source")}>
+      <div id="desktop-shortcut-container" onClick={addBrowser("Snapcaster")}>
         <button id="desktop-shortcut-button">
           <img src="./FolderIcon.ico" id="desktop-button-image" alt="Folder"></img>
-          <p id="desktop-shortcut-text">Open Source</p>
+          <p id="desktop-shortcut-text">Snap Caster</p>
         </button>
       </div>
       <div id="desktop-shortcut-container">
