@@ -11,11 +11,14 @@ function Portfolio() {
           cards among local card shops in Canada. With individual card prices ranging from 1¢ up to 2 million dollars, creating a deck can get very expensive.
         </p>
         <p>
-          Snapcaster is an online website I helped{" "}
+          <a href="https://www.snapcaster.ca/" target="_blank" rel="noreferrer">
+            Snapcaster
+          </a>{" "}
+          is an online website I helped{" "}
           <a href="https://www.bryceeppler.com/" target="_blank" rel="noreferrer">
             Bryce Eppler
           </a>{" "}
-          develop where players can query for the cheapest cards sold from over 60 Canadain local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as possible.
+          develop where players can query for the cheapest cards sold from over 60 Canadian local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as possible.
         </p>
         <p>Snapcaster Generates roughly 40,000 page visits a month and an average of 2000 unique monthly visitors including free and paid subscribers.</p>
         <p>In March 2024 we launched our paid subscription service model which includes a premium advanced search tool and a price alert wish list tool alongside our free single/multi search tools.</p>
@@ -60,7 +63,7 @@ function Portfolio() {
           </a>{" "}
           and{" "}
           <a href="https://github.com/henry-minh/COMP4905-Honours-Henry" target="_blank" rel="noreferrer">
-            Github Repo
+            GitHub Repo
           </a>{" "}
           are available to view online.
         </p>
@@ -87,7 +90,7 @@ function Portfolio() {
         <p>
           The{" "}
           <a href="https://github.com/henry-minh/warehouse" target="_blank" rel="noreferrer">
-            Github Repo
+            GitHub Repo
           </a>{" "}
           is available to view online.
         </p>

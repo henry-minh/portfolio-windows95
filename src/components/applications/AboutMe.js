@@ -9,14 +9,14 @@ function AboutMe() {
 
       <div id="content-text">
         <h4>About Me</h4>
-        <p>I'm a full-stack software developer with a passion for creating unique web experiences. I have experience developing with cloud services, a variety of back-end and front-end frameworks.</p>
+        <p>I'm a full-stack software developer with a passion for creating unique web experiences. I have experience developing with cloud services, a variety of back end and front end frameworks.</p>
 
         <p>
           From an early age, I always had a deep fascination for technology and how things worked. This curiosity evolved into a genuine passion after I learned Java in my high school programming class which guided my journey as a software
           developer.
         </p>
 
-        <p>I graduated in the Computer Science Honours program at Carleton University in 2023. Here I learned how to work in Agile enviornments thourgh SCRUM, software quality assurance, and systems security.</p>
+        <p>I graduated in the Computer Science Honours program at Carleton University in 2023. Here I learned how to work in Agile SCRUM environments, software quality assurance, and systems security.</p>
         {/*
         <div id="content-skills">
           <p style={{ background: "#A7226E" }}>ReactJS</p>
@@ -53,8 +53,8 @@ function AboutMe() {
 
         <h5>Gundam</h5>
         <p>
-          Gundam is a long running science fiction franchise that revolves around military mech suits. In the past few months I started getting into building Gundam mech models. My current project I'm working on is the "Unicorn 02 Banshee",
-          a collaboration with the appareal brand Nike.
+          Gundam is a long running science fiction franchise that revolves around military mech suits. In the past few months I started getting into building Gundam mech models. My current project I'm working on is aspecial edition of the
+          "Unicorn 02 Banshee" that is a collaboration with the apparel brand Nike.
         </p>
         <img src="./gundam.jpg" id="content-photo" alt="nike sb gundam"></img>
       </div>
@@ -67,7 +67,7 @@ function AboutMe() {
           </a>
           , a local dog shelter in Ottawa Ontario.
         </p>
-        <p>I drive foster dogs to their vet appointments and deliver donated supplies to foster families across the city. I also help as a dog handler at local fundrasing events.</p>
+        <p>I drive foster dogs to their vet appointments and deliver donated supplies to foster families across the city. I also help as a dog handler at local fundraising events.</p>
         <p>
           I was inspired after my sibling reached out to me in 2022 to help temporarily house a rescue dog named Teddy for Paws Across the Water. The biggest takeaway I took was how important it is to promote responsible pet ownership. I
           want to take this unique opportunity to promote a more positive and compassionate community for dogs and pet owners!
