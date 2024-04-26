@@ -9,11 +9,11 @@ function AboutMe() {
 
       <div id="content-text">
         <h4>About Me</h4>
-        <p>I'm a full-stack software developer with a passion for creating unique web experiences. I have experience developing with cloud services, a variety of back end and front end frameworks.</p>
+        <p>I'm a full-stack software developer with a passion for creating unique web experiences. I have experience deploying full stack web applications using cloud services, API development, and testing.</p>
 
         <p>
-          From an early age, I always had a deep fascination for technology and how things worked. This curiosity evolved into a genuine passion after I learned Java in my high school programming class which guided my journey as a software
-          developer.
+          From an early age, I always had a deep fascination for technology and how things worked. This curiosity evolved into a genuine passion after I learned Java in my high school programming class which guided my
+          journey as a software developer.
         </p>
 
         <p>I graduated in the Computer Science Honours program at Carleton University in 2023. Here I learned how to work in Agile SCRUM environments, software quality assurance, and systems security.</p>
@@ -43,18 +43,15 @@ function AboutMe() {
       <div id="content-text">
         <h4>Hobbies</h4>
         <h5>Music</h5>
-        <p>
-          Recently I've been recording guitar covers with an audio interface and FL Studio. Music that I grew up listening to include bands such as Rise Against, Iron Maiden, and Mastodon. My current reccomendation that I've been enjoying
-          is an instrumental band that goes by Polyphia.
-        </p>
+        <p>Recently I've been recording guitar covers with an audio interface and FL Studio. Music that I grew up listening to include bands such as Rise Against, Iron Maiden, and Mastodon.</p>
 
         <h5>Sports</h5>
         <p>I like to stay active by taking part in recreational sports leagues. In the summer months I primarily play soccer in an open league or golf with my friends.</p>
 
         <h5>Gundam</h5>
         <p>
-          Gundam is a long running science fiction franchise that revolves around military mech suits. In the past few months I started getting into building Gundam mech models. My current project I'm working on is aspecial edition of the
-          "Unicorn 02 Banshee" that is a collaboration with the apparel brand Nike.
+          Gundam is a long running science fiction franchise that revolves around military mech suits. In the past few months, I started getting into building Gundam mech models. My current project I'm working on is a
+          special edition of the "Unicorn 02 Banshee" that is a collaboration with the apparel brand Nike.
         </p>
         <img src="./gundam.jpg" id="content-photo" alt="nike sb gundam"></img>
       </div>
@@ -69,8 +66,8 @@ function AboutMe() {
         </p>
         <p>I drive foster dogs to their vet appointments and deliver donated supplies to foster families across the city. I also help as a dog handler at local fundraising events.</p>
         <p>
-          I was inspired after my sibling reached out to me in 2022 to help temporarily house a rescue dog named Teddy for Paws Across the Water. The biggest takeaway I took was how important it is to promote responsible pet ownership. I
-          want to take this unique opportunity to promote a more positive and compassionate community for dogs and pet owners!
+          I was inspired after my sibling reached out to me in 2022 to help temporarily house a rescue dog named Teddy for Paws Across the Water. The biggest takeaway I took was how important it is to promote responsible
+          pet ownership. I want to take this unique opportunity to promote a more positive and compassionate community for dogs and pet owners!
         </p>
         <img src="./dog.jpg" id="content-photo" alt="Tikanaa Meet and Greet"></img>
       </div>

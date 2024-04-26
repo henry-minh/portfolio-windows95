@@ -7,8 +7,8 @@ function Portfolio() {
       <div id="content-text">
         <h4>Snapcaster.ca</h4>
         <p>
-          Magic the Gathering (MTG) is the largest collectable trading card game with roughly 40 million players worldwide. There are over 27,000 unique printed cards in MTG but no website that aggregates the best prices for unpacked single
-          cards among local card shops in Canada. With individual card prices ranging from 1¢ up to 2 million dollars, creating a deck can get very expensive.
+          Magic the Gathering (MTG) is the largest collectable trading card game with roughly 40 million players worldwide. There are over 27,000 unique printed cards in MTG but no website that aggregates the best prices
+          for unpacked single cards among local card shops in Canada. With individual card prices ranging from 1¢ up to 2 million dollars, creating a deck can get very expensive.
         </p>
         <p>
           <a href="https://www.snapcaster.ca/" target="_blank" rel="noreferrer">
@@ -18,10 +18,24 @@ function Portfolio() {
           <a href="https://www.bryceeppler.com/" target="_blank" rel="noreferrer">
             Bryce Eppler
           </a>{" "}
-          develop where players can query for the cheapest cards sold from over 60 Canadian local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as possible.
+          develop where players can query for the cheapest cards sold from over 60 Canadian local game stores. Our goal is to promote small Canadian businesses while helping players save as much time and money as
+          possible.
         </p>
-        <p>Snapcaster Generates roughly 40,000 page visits a month and an average of 2000 unique monthly visitors including free and paid subscribers.</p>
-        <p>In March 2024 we launched our paid subscription service model which includes a premium advanced search tool and a price alert wish list tool alongside our free single/multi search tools.</p>
+        <p>Snapcaster Generates roughly 40,000 page visits a month and an average of 2800 unique monthly visitors including free and paid subscribers.</p>
+        <p>In March 2024 we launched our paid subscription service model which includes multi search, premium advanced search, and wish list tools alongside our free single service.</p>
+
+        <p>
+          The back-end repo is private, but you can view our documentation{" "}
+          <a target="_none" href="https://snapcaster-docs.vercel.app/">
+            here
+          </a>{" "}
+          and our front-end repo{" "}
+          <a target="_none" href="https://github.com/bryceeppler/snapcaster-client">
+            here
+          </a>
+          .
+        </p>
+
         <div id="content-skills">
           <p style={{ background: "#EC2049" }}>Python</p>
           <p style={{ background: "#2F9599" }}>TypeScript</p>
@@ -34,6 +48,8 @@ function Portfolio() {
           <p style={{ background: "#FC913A" }}>PostgreSQL</p>
           <p style={{ background: "#99B898" }}>Docker</p>
           <p style={{ background: "#F26B38" }}>Postman</p>
+          <p style={{ background: "#763626" }}>Selenium</p>
+          <p style={{ background: "#FF4E50" }}>Google Analytics</p>
         </div>
       </div>
 
@@ -47,13 +63,13 @@ function Portfolio() {
           (Carleton University) for my fourth year Honours project.
         </p>
         <p>
-          The goal is to showcase how denial of inventory attacks (Scalping attacks) negatively impact online businesses by developing a tool that can simulate mass users attempting to purchase products online. The inability to distribute
-          highly limited inventory appropriately can annoy consumers and result in a reduction in customer retention and possible future revenue.
+          The goal is to showcase how denial of inventory attacks (Scalping attacks) negatively impact online businesses by developing a tool that can simulate mass users attempting to purchase products online. The
+          inability to distribute highly limited inventory appropriately can annoy consumers and result in a reduction in customer retention and possible future revenue.
         </p>
         <p>I developed a functioning automated checkout bot that can concurrently simulate multiple customers purchasing high demand products on web platforms powered by Shopify.</p>
         <p>
-          The three main security measures implemented on Shopify includes a web application firewall, queue state, and bot protection. The software developed evaluates the purpose and effectiveness of each of these components from a usable
-          security perspective while proposing alternative solutions.
+          The three main security measures implemented on Shopify includes a web application firewall, queue state, and bot protection. The software developed evaluates the purpose and effectiveness of each of these
+          components from a usable security perspective while proposing alternative solutions.
         </p>
 
         <p>
@@ -78,13 +94,13 @@ function Portfolio() {
       <div id="content-text">
         <h4>QNX Neutrino: Real-Time Warehouse Ordering System</h4>
         <p>
-          QNX Neutrino is a Real Time Operating System developed by Blackberry and is commonly used in low level programming. Examples include IOT devices, autonomous vehicles, and sensors in a distributed system. This project focuses on
-          how multiple threads need to be scheduled when accessing a shared data structure for an online warehouse ordering system.
+          QNX Neutrino is a Real Time Operating System developed by Blackberry and is commonly used in low level programming. Examples include IOT devices, autonomous vehicles, and sensors in a distributed system. This
+          project focuses on how multiple threads need to be scheduled when accessing a shared data structure for an online warehouse ordering system.
         </p>
         <p>Thousands of simulated clients send mass orders to a warehouse server. The server (Running on QNX Neutrino) confirms and fulfill orders in the warehouse while maintaining data integrity.</p>
         <p>
-          Inventory data integrity is handled by preventing multiple threads performing transactions on the same resources simultaneously. This is done by implementing mutexes and giving each server thread a unique round-robin scheduling
-          priority algorithm based on the client orders.
+          Inventory data integrity is handled by preventing multiple threads performing transactions on the same resources simultaneously. This is done by implementing mutexes and giving each server thread a unique
+          round-robin scheduling priority algorithm based on the client orders.
         </p>
         <p>This was a project where I collaborated with my university peers: Brandon Atkins, Tristan Demers, and Chris Boyd.</p>
         <p>

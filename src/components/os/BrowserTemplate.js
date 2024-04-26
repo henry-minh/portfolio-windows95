@@ -27,11 +27,12 @@ function BrowserTemplate({ item, xValue, yValue, zValue, icon, browserContent, i
     <div hidden={hidden} id="browser-container" style={{ zIndex: zValue, visibility: isRunning }}>
       <Draggable handle=".browser-header-container" defaultPosition={{ x: xValue, y: yValue }} onStart={changeBrowserFocus} onStop={handleStop} position={{ x: x, y: y }}>
         <div id="draggable-content" style={{ width: maximized ? "100vw" : "60vw" }}>
-          <div id="browser-header-container" className="browser-header-container">
-            <img src={icon} alt="test" id="browser-header-image" className="browser-header-image"></img>
+          <div id="browser-top-bar">
+            <div id="browser-header-container" className="browser-header-container">
+              <img src={icon} alt="test" id="browser-header-image" className="browser-header-image"></img>
 
-            <p id="browser-header-name">{item}</p>
-
+              <p id="browser-header-name">{item}</p>
+            </div>
             <div id="browser-header-button-container" className="browser-header-button-container">
               <div id="testing">
                 {/* min */}
@@ -45,8 +46,7 @@ function BrowserTemplate({ item, xValue, yValue, zValue, icon, browserContent, i
                     maximizeBrowser(item);
                     setX(0);
                     setY(0);
-                  }}
-                >
+                  }}>
                   <span id="maximize-button"></span>
                 </button>
                 {/* close */}

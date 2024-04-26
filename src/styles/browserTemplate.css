@@ -22,6 +22,10 @@
 #draggable-content {
   width: 100%;
 }
+
+#browser-top-bar {
+  display: flex;
+}
 #browser-header-container {
   display: flex;
   align-items: center;
@@ -67,8 +71,8 @@
   border-right: 2px black solid;
   background-color: #c3c3c3;
   cursor: pointer;
-  right: 3px;
-  bottom: 5px;
+  right: 1px;
+  bottom: 8px;
   margin-left: 2px;
 }
 
