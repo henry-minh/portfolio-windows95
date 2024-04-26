@@ -97,7 +97,9 @@ function Desktop() {
     (browserTitle) => () => {
       setZ(z + 1);
 
-      setItems(items.map((item) => (item.browserName === browserTitle ? { ...item, hidden: false, state: true, zPosition: z, taskBarClassName: "taskbar-selected" } : { ...item, taskBarClassName: "taskbar-unselected" })));
+      setItems(
+        items.map((item) => (item.browserName === browserTitle ? { ...item, hidden: false, state: true, zPosition: z, taskBarClassName: "taskbar-selected" } : { ...item, taskBarClassName: "taskbar-unselected" }))
+      );
       console.log(items);
     },
     [z, items]
@@ -159,8 +161,7 @@ function Desktop() {
               maximizeBrowser={maximizeBrowser}
               closeBrowser={closeBrowser}
               minmizeBrowser={minmizeBrowser}
-              changeBrowserFocus={changeBrowserFocus(item.browserName)}
-            ></BrowserTemplate>
+              changeBrowserFocus={changeBrowserFocus(item.browserName)}></BrowserTemplate>
           )
       )}
       {/* Window Popup */}
@@ -196,9 +197,16 @@ function Desktop() {
       </div>
 
       <div id="footer">
-        <input type="image" src={startBtn} alt="text" id="footer-start-button"></input>
+        <div>
+          <input type="image" src={startBtn} alt="text" id="footer-start-button"></input>
+        </div>
 
-        {items.map((item) => item.state === true && <TaskBarButtons key={item.key} item={item.browserName} icon={item.icon} taskbarClassName={item.taskBarClassName} clickTaskbarIcon={changeBrowserFocus}></TaskBarButtons>)}
+        <div id="taskbar-browser-buttons">
+          {" "}
+          {items.map(
+            (item) => item.state === true && <TaskBarButtons key={item.key} item={item.browserName} icon={item.icon} taskbarClassName={item.taskBarClassName} clickTaskbarIcon={changeBrowserFocus}></TaskBarButtons>
+          )}
+        </div>
 
         <div id="taskbar-time-containter">
           <p>
