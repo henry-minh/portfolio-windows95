@@ -13,7 +13,6 @@ function Snapcaster() {
         </p>
 
         <p>
-          {" "}
           After implementing the mongo service and integrating it with our built-in search API and taking some time off in the fall the next hurdle was determining monthly server costs. This was our first project where
           we had to worry about storing millions of entries of data and were very concerned about calculating how read/write operation would affect our server costs. After a month of researching cloud storage options and
           researching best practices when indexing our database, we finally had a strong understanding on our monthly server costs and felt comfortable to develop more features.
@@ -27,10 +26,10 @@ function Snapcaster() {
 
         <p>
           In recent months, I have begun collaborating with store owners such as{" "}
-          <a href="https://red-dragon.ca/" target="_none">
-            Red Dragon Ottawa
+          <a href="https://obsidiangames.ca/" target="_none">
+            Obsidian Games
           </a>{" "}
-          to provide marketplace trends and analytics to help them competitively price their products, boost user engagement, as well as advertise their business on Snapcaster.
+          to help boost their user engagement as well as advertise their business on Snapcaster.
         </p>
 
         <p style={{ fontWeight: "bold" }}>GitHub repo access and a temporary Snapcaster premium key can be given upon request.</p>

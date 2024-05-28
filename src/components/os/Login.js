@@ -12,17 +12,21 @@ function Login({ signInFunction }) {
             <div id="login-image-container">
               <img src={"./keys.ico"} alt="keys"></img>
             </div>
-            <div id="login-text-container">
-              <p>Welcome to my Portfolio Website.</p>
-              <button
-                onClick={function () {
-                  const audio = new Audio("./startupNoise.mp3");
-                  audio.play();
-                  signInFunction();
-                }}
-              >
-                Login
-              </button>
+            <div id="login-sub-container-2">
+              <div>
+                <p>Welcome to my Portfolio Website.</p>
+              </div>
+
+              <div>
+                <button
+                  onClick={function () {
+                    const audio = new Audio("./startupNoise.mp3");
+                    audio.play();
+                    signInFunction();
+                  }}>
+                  Login
+                </button>
+              </div>
             </div>
           </div>
         </div>
