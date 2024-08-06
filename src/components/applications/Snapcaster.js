@@ -5,7 +5,7 @@ function Snapcaster() {
         <h1>Snapcaster</h1>
       </div>
       <div id="content-text">
-        <h4>Snapcaster Contributions</h4>
+        <h1>Journey at Snapcaster</h1>
 
         <p>
           In June 2023 I began working with Bryce to help co-develop Snapcaster. Originally all the data was being web scraped in real time server side using Beautiful Soup which was a huge concern from a scalability
@@ -20,21 +20,16 @@ function Snapcaster() {
 
         <p>
           The next major feature I worked on was a new Advanced Search Module and API endpoint for our premium subscribers. A key responsibility of mine is to standardize data collection across the 70 different websites.
-          I redesigned our web scraper to store more granular information about the card the user could apply a search filter. Examples of filters include foil types, set, card frame, etc. I also developed the front end
-          for the advanced search service using Typescript and TailwindCSS in NextJS (see down below).
+          I redesigned our web scraper to store more granular information about the card the user could apply a search filter. We were then able to reuse alot of our code to be able to support multiple trading card games such as Pokemon, Yugioh, Lorcana, and OnePiece TCG.
         </p>
 
         <p>
-          In recent months, I have begun collaborating with store owners such as{" "}
-          <a href="https://obsidiangames.ca/" target="_none">
-            Obsidian Games
-          </a>{" "}
-          to help boost their user engagement as well as advertise their business on Snapcaster.
+          Today, we have signed contracts with the largest retailers in Canada to provide all inclusive advertising, analytics, and dashboard tools to help promote indivdual store owners. In July 2024, we've added a couple of new developers to the project and i've taken the responsibility of onboarding and managing their responsibilities.
         </p>
 
         <p style={{ fontWeight: "bold" }}>GitHub repo access and a temporary Snapcaster premium key can be given upon request.</p>
       </div>
-      <img src="./advancedSearch.png" id="content-photo" alt="Advanced Search" style={{ paddingBottom: "2rem" }}></img>
+      <img src="./advancedSearch.jpg" id="content-photo" alt="Advanced Search" style={{ paddingBottom: "2rem" }}></img>
     </div>
   );
 }
